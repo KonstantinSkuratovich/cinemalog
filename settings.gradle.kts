@@ -25,4 +25,19 @@ dependencyResolutionManagement {
 
 rootProject.name = "CinemaLog"
 include(":app")
-include(":core:network")
+include(
+    ":core:network",
+    ":core:database",
+    ":core:datastore",
+    ":core:data",
+    ":core:designsystem",
+)
+include(
+    ":feature:account",
+    ":feature:details",
+    ":feature:diary",
+    ":feature:discover",
+    ":feature:live",
+    ":feature:search",
+    ":feature:settings",
+)
